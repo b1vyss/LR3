@@ -14,18 +14,29 @@ class Program
 
             string operations = Console.ReadLine();
 
-            switch (operations) {
+            switch (operations)
+            {
                 case "1":
                     {
                         A = Convert.ToDouble(Console.ReadLine());
                         break;
                     }
-                case "2": 
+                case "2":
                     {
                         B = Convert.ToDouble(Console.ReadLine());
+                        break;
+                    }
+                case "3":
+                    {
+                        break;
+                    }
+                case "4":
+                    {
+                        Console.WriteLine("пися попа");
                         break;
                     }
             }
         }
     }
 }
+    
