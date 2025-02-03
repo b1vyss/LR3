@@ -32,7 +32,7 @@ class Program
                     }
                 case "4":
                     {
-                        Console.WriteLine("пися попа");
+                        
                         break;
                     }
             }
